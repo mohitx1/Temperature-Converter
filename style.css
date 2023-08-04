@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: #d6dce2; */
+    font-family: "Montserrat", sans-serif;
+    background-image: url('https://source.unsplash.com/1920x1080/?nature');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+form {
+    background-color: #33333380;
+    padding: 30px;
+    /* border-radius: 10px; */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: "Montserrat", sans-serif;
+    /* background-image: url('https://source.unsplash.com/1920x1080/?nature');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    font-size: 20px;
+    /* font-weight: 600; */
+    font-family: "Montserrat", sans-serif;
+    color: #ffffffa1;
+}
+
+input[type="number"] {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+    margin-top: 10px;
+    outline: none;
+}
+
+select {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+    margin-top: 10px;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+    
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333333c0;
+    border: none;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+    /* border-radius: 1000px; */
+}
+
+input[type="submit"]:hover {
+    background-color: 333333c0;
+    font-family: "Montserrat", sans-serif;
+}
+
+#resultContainer {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
